@@ -68,4 +68,10 @@
 - followersCountMax : For filtering followers count 
 - followersCountMin : For filtering followers count 
 - verified: For filtering verified users 
+---
+## Tech Stack
+- Node js
+- MongoDB
+- Express
+
 
