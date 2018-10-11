@@ -57,5 +57,15 @@
 - text : For text search
 - user : For user name search
 - screenName -> for screen name search
----------- above two are compulsory --------
 > following can be added to filter the search
+- startDate : For filtering Start Date
+- endDate : For filtering end Date
+- rtCountMax : For filtering retweets
+- rtCountMin : For filtering retweets
+- favCountMax : For filtering favourites
+- favCountMin : For filtering favourites
+- language : For filtering languages
+- followersCountMax : For filtering followers count 
+- followersCountMin : For filtering followers count 
+- verified: For filtering verified users 
+
