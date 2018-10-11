@@ -53,7 +53,7 @@
 ### Search
 
 > Send GET req to /search with query Params
-##### Query Params
+### Query Params
 - text : For text search
 - user : For user name search
 - screenName -> for screen name search
