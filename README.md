@@ -19,9 +19,24 @@
 
 ## Csv export
 > User can export the filtered data to a csv file (just go to /csv route it will be downloaded automatically)
+
 ![Recordit GIF](http://g.recordit.co/bdMu4fIlrO.gif)
 
 
 ## Key features
-> Queries can be filtered by passing extra queries.
-> Csv export (go to /csv) it will be dowmloaded
+> Queries can be filtered by passing extra queries. (sort by date,filter by retweet Count, followers count etc..)
+> Csv export (go to /csv) it will be downloaded.
+> Live stream of tweets
+> Name search by monogDb naitve indexing in O(1) time
+> Text search by soundex and reverse Indexing in O(1) time (similar sounding words will yield same results)
+> No sql DataBase (MongoDb)
+
+## How to Use
+> Install Dependencies
+
+```npm install```
+
+### Streaming
+
+> Send GET req to /stream/start to start streaming with term to be searched (term: Keyword to be searched)
+> Send GET req to /stream/stop to stop streaming
