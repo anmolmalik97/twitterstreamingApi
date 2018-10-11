@@ -22,6 +22,7 @@
 
 ![Recordit GIF](http://g.recordit.co/bdMu4fIlrO.gif)
 
+---
 
 ## Key features
 > Queries can be filtered by passing extra queries. (sort by date,filter by retweet Count, followers count etc..)
@@ -32,6 +33,9 @@
 > No sql DataBase (MongoDb)
 
 ## How to Use
+
+##### Clone repo
+
 ###### Install Dependencies
 
 ```npm install```
@@ -50,8 +54,8 @@
 
 > Send GET req to /search with query Params
 ##### Query Params
-text -> For text search
-user -> For user name search
-screenName -> for screen name search
+- text : For text search
+- user : For user name search
+- screenName -> for screen name search
 ---------- above two are compulsory --------
 > following can be added to filter the search
