@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 
 // mongoDb config (mongoose)
 mongoose.set('useCreateIndex', true)
-mongoose.connect('mongodb://localhost:27017/test', { useNewUrlParser: true })
+mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true })
 
 
 // importing routers (Api's)
