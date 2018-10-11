@@ -11,3 +11,8 @@
 > User can send the queries for documents per page,page to be viewed etc..
 
 ![Recordit GIF](http://g.recordit.co/5Ldm5cFkhw.gif)
+
+## tweet Streaming..
+> User can start and stop streaming for tweets with a keyword..
+
+![Recordit GIF](http://g.recordit.co/aSujtEDzJq.gif)
