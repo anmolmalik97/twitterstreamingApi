@@ -9,3 +9,5 @@
 
 ## Api's are paginated..
 > User can send the queries for documents per page,page to be viewed etc..
+
+![Recordit GIF](http://g.recordit.co/5Ldm5cFkhw.gif)
