@@ -32,11 +32,26 @@
 > No sql DataBase (MongoDb)
 
 ## How to Use
-> Install Dependencies
+###### Install Dependencies
 
 ```npm install```
 
 ### Streaming
 
-> Send GET req to /stream/start to start streaming with term to be searched (term: Keyword to be searched)
-> Send GET req to /stream/stop to stop streaming
+> POST GET req to /stream/start to start streaming with term to be searched (term: Keyword to be searched)
+
+> POST GET req to /stream/stop to stop streaming
+
+### Csv Export
+
+> Send GET req to /csv after selecting the filtered Data
+
+### Search
+
+> Send GET req to /search with query Params
+##### Query Params
+text -> For text search
+user -> For user name search
+screenName -> for screen name search
+---------- above two are compulsory --------
+> following can be added to filter the search
