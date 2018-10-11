@@ -15,12 +15,13 @@ config.T = new Twit({
 })
 
 config.sendMsg = async (msg) => {
-  console.log(msg)
+  // console.log(msg)
   const TwitterData = new Tweet(msg); // create object 
     TwitterData.save()
     .then(data => {
       let dataArray = data.text.split(' ');
       dataArray.forEach(async (arrayData) => {
+        console.log('iam in mongoose')
       await RevIndex.findOneAndUpdate({key: soundex(arrayData)},{$push: {tweetId: data._id}},{upsert: true,new: true,},(err,data) => {
       })
       })
