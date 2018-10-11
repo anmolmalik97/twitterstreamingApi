@@ -5,6 +5,7 @@
 - <a href="https://innovaccer-backend-assignment.herokuapp.com/search?text=modi&perPage=100" target="_blank">`Live Demo for api`</a>
 ## Soundex with reverse indexing to search word from the tweet text in O(1) time complexity -> 
 > User can search for similar sounding words from the tweet text...eg -> srsly and seriously will yield same results
+> User can search username also (regex and mongoDB native indexing used for username)
 
 ![Recordit GIF](http://g.recordit.co/Ftln25crlZ.gif)
 
@@ -30,7 +31,7 @@
 > Queries can be filtered by passing extra queries. (sort by date,filter by retweet Count, followers count etc..)
 > Csv export (go to /csv) it will be downloaded.
 > Live stream of tweets
-> Name search by monogDb naitve indexing in O(1) time
+> Name search by monogDb naitve indexing and regex time
 > Text search by soundex and reverse Indexing in O(1) time (similar sounding words will yield same results)
 > No sql DataBase (MongoDb)
 
