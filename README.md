@@ -16,3 +16,12 @@
 > User can start and stop streaming for tweets with a keyword..
 
 ![Recordit GIF](http://g.recordit.co/aSujtEDzJq.gif)
+
+## Csv export
+> User can export the filtered data to a csv file (just go to /csv route it will be downloaded automatically)
+![Recordit GIF](http://g.recordit.co/bdMu4fIlrO.gif)
+
+
+## Key features
+> Queries can be filtered by passing extra queries.
+> Csv export (go to /csv) it will be dowmloaded
