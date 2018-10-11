@@ -41,7 +41,9 @@ router.get('/',(req,res,next) => {
 	if(req.query.user){
 		let searchTerm = req.query.user;
 		let query = {
-				"user.name": searchTerm,
+				"user.name": {
+					$regex: new RegExp(searchTerm)
+				},
 				created_at: {
 				"$gte": startDate,
 					"$lte": endDate
@@ -73,7 +75,9 @@ router.get('/',(req,res,next) => {
 	else if(req.query.screenName){
 		let searchTerm = req.query.screenName;
 		let query = {
-				"user.screen_name": searchTerm,
+				"user.screen_name": {
+					$regex: new RegExp(searchTerm)
+				},
 				created_at: {
 				"$gte": startDate,
 					"$lte": endDate
